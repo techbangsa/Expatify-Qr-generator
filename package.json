@@ -1,0 +1,25 @@
+{
+  "name": "qr-bulk-generator",
+  "version": "1.0.0",
+  "description": "Standalone bulk QR code generator - Generate up to 5000 QR codes from CSV",
+  "main": "server.cjs",
+  "scripts": {
+    "start": "node server.cjs",
+    "generate": "node qr-generator.cjs"
+  },
+  "keywords": [
+    "qr-code",
+    "qr-generator",
+    "bulk",
+    "csv",
+    "barcode"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "qrcode": "^1.5.4",
+    "archiver": "^7.0.1",
+    "express": "^4.21.0",
+    "multer": "^1.4.5-lts.1"
+  }
+}
